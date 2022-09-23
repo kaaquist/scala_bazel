@@ -12,6 +12,11 @@ scala_binary(
         "//third_party/jvm/com/github/pureconfig:pureconfig_macros",
         "//third_party/jvm/com/typesafe/scala_logging:scala_logging",
         "//third_party/jvm/ch/qos/logback:logback_classic",
+        "//third_party/jvm/org/apache/avro:avro",
+        "//third_party/jvm/commons_io:commons_io",
+        "//third_party/jvm/org/apache/parquet:parquet_avro",
+        "//third_party/jvm/org/apache/hadoop:hadoop_hdfs",
+        "//third_party/jvm/org/apache/hadoop:hadoop_common",
     ],
 )
 
@@ -24,6 +29,11 @@ scala_test(
             "//third_party/jvm/com/github/pureconfig:pureconfig_macros",
             "//third_party/jvm/com/typesafe/scala_logging:scala_logging",
             "//third_party/jvm/ch/qos/logback:logback_classic",
+            "//third_party/jvm/org/apache/avro:avro",
+            "//third_party/jvm/commons_io:commons_io",
+            "//third_party/jvm/org/apache/parquet:parquet_avro",
+            "//third_party/jvm/org/apache/hadoop:hadoop_hdfs",
+            "//third_party/jvm/org/apache/hadoop:hadoop_common",
             ],
 )
 

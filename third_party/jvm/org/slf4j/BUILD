@@ -11,3 +11,17 @@ java_library(
 )
 
 
+
+java_library(
+    name = "slf4j_log4j12",
+    exports = [
+        "//external:jar/org/slf4j/slf4j_log4j12",
+        "//third_party/jvm/log4j:log4j",
+        ":slf4j_api"
+    ],
+    visibility = [
+        "//third_party/jvm:__subpackages__"
+    ]
+)
+
+

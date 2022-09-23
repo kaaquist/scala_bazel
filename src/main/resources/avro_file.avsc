@@ -1,0 +1,9 @@
+{
+   "type" : "record",
+   "namespace" : "nl.amis.smeetsm.schema",
+   "name" : "Employee",
+   "fields" : [
+      { "name" : "name" , "type" : "string" },
+      { "name" : "age" , "type" : "int" }
+   ]
+}
